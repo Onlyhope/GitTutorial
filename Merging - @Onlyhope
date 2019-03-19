@@ -1,0 +1,48 @@
+Merging - @Onlyhope
+Onlyhope committed 4 minutes ago
+ 
+Commiting 3 - @Onlyhope
+Onlyhope committed 21 minutes ago
+ 
+Commiting 1 - @Onlyhope
+Onlyhope committed 22 minutes ago
+ 
+Bugfix 2 - @Onlyhope
+Onlyhope committed 17 minutes ago
+ 
+Bugfix 1 - @Onlyhope
+Onlyhope committed 18 minutes ago
+ 
+Commiting 3 - Onlyhope
+Onlyhope committed 21 minutes ago
+ 
+Commiting 2 - @Onlyhope
+Onlyhope committed 21 minutes ago
+ 
+Commiting 1 - @Onlyhope
+Onlyhope committed 22 minutes ago
+ 
+Initial commit on master - @Onlyhope
+Onlyhope committed 25 minutes ago
+
+Based on these commits, you can see the results of a:
+
+git rebase --onto primary-dev-branch master bugfix-master-branch
+
+	 	 -----> bugfix-master-branch
+		/
+-------> master
+		\
+		 -----> primary-dev-branch
+
+In an attempt to rebase the bugfix-master-branch on top of primary-dev-branch,
+we will have to apply:
+
+Bugfix 1
+Bugfix 2
+
+then...
+
+Commiting 1
+Commiting 2
+Commiting 3
