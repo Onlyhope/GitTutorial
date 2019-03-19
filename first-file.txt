@@ -1,1 +1,2 @@
 bugfix-master-branch: Bugfix - 1
+bugfix-master-branch: Bugfix - 2
